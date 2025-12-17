@@ -5,7 +5,7 @@ A web application that uses AI to extract OEM (Original Equipment Manufacturer) 
 ## Features
 
 - 📤 Upload Excel files (.xlsx, .xls, .csv)
-- 🤖 AI-powered extraction using OpenAI GPT-4
+- 🤖 AI-powered extraction using OpenAI GPT-5.2
 - 📊 Structured output with proper headers and styling
 - 💾 Download processed files
 - 🎨 Modern, responsive UI
@@ -75,7 +75,7 @@ spreadsheet-processor/
 - **Frontend:** React, CSS3
 - **Backend:** Node.js, Express
 - **File Processing:** xlsx
-- **AI:** OpenAI GPT-4
+- **AI:** OpenAI GPT-5.2
 - **File Upload:** Multer
 
 ## Notes
@@ -83,7 +83,7 @@ spreadsheet-processor/
 - The application processes files up to 10MB in size
 - Uploaded files are automatically deleted after processing
 - Processed files are stored in `server/output/` directory
-- The AI model used is GPT-4o (latest available)
+- The AI model used is GPT-5.2
 
 ## License
 

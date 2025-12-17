@@ -59,7 +59,7 @@ ${dataString.substring(0, 15000)}`; // Limit to avoid token limits
 
   try {
     const response = await openai.chat.completions.create({
-      model: "gpt-4o", // Using GPT-4o (latest available)
+      model: "gpt-5.2",
       messages: [
         {
           role: "system",
@@ -71,7 +71,7 @@ ${dataString.substring(0, 15000)}`; // Limit to avoid token limits
         }
       ],
       temperature: 0.1,
-      max_tokens: 4000
+      max_completion_tokens: 4000
     });
 
     const content = response.choices[0].message.content.trim();
